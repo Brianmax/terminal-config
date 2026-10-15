@@ -1,0 +1,20 @@
+onboarding = false
+
+[theme]
+name = "dracula"
+auto_switch = false
+
+[keys]
+prefix = "cmd+u"
+navigate_workspace_up = "k"
+navigate_workspace_down = "j"
+navigate_pane_up = "up"
+navigate_pane_down = "down"
+
+# vim-style tab navigation, direct (no prefix) so you can chain presses
+previous_tab = "cmd+shift+h"
+next_tab = "cmd+shift+l"
+
+# pane focus moved off h/l so tab keys don't collide
+focus_pane_left = "prefix+left"
+focus_pane_right = "prefix+right"

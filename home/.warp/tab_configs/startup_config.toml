@@ -1,0 +1,8 @@
+name = "New tab: __USER__"
+
+[[panes]]
+id = "main"
+type = "agent"
+directory = "__HOME__"
+
+[params]
